@@ -1,0 +1,61 @@
+/* css/styles.css */
+body {
+    background-color: #333; /* Grigio scuro */
+    color: #fff; /* Testo bianco */
+    font-family: 'Roboto', sans-serif; /* Font Roboto */
+}
+
+.navbar {
+    background-color: #666 !important; /* Grigio medio per la navbar */
+}
+
+.nav-link {
+    color: #8af; /* Colore bianco per i link */
+    padding: 10px 20px; /* Maggiore spaziatura */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+    background-color: rgba(255, 215, 0, 0.1); /* Sfondo oro traslucido */
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s; /* Transizione per effetto hover */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 215, 0, 0.5); /* Sfondo oro al passaggio del mouse */
+}
+
+.logo {
+    max-width: 300px; /* Imposta la larghezza massima dell'immagine */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    display: block; /* Rende l'immagine un blocco per centrarla */
+    margin: 0 auto; /* Centra l'immagine */
+    margin-top: 20px; /* Margine sopra l'immagine */
+}
+
+h2 {
+    color: #FFD700; /* Oro per i titoli */
+}
+
+footer {
+    background-color: #222; /* Un grigio molto scuro per il footer */
+    color: #FFD700; /* Oro per il testo del footer */
+}
+
+.btn-primary {
+    background-color: #FFD700; /* Oro per il pulsante */
+    border-color: #FFD700; /* Oro per il bordo del pulsante */
+}
+
+.btn-primary:hover {
+    background-color: #fff; /* Bianco quando si passa sopra con il mouse */
+    color: #333; /* Grigio scuro per il testo */
+
+}
+
+h1 {
+    color: #007bff;
+}
+
+footer {
+    background-color: #666; /* Grigio medio per il footer */
+    color: #FFD700; /* Oro per il testo del footer */
+}
+
